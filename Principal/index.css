@@ -155,3 +155,41 @@ height: 400px;
         display: flex;
         justify-content: space-evenly;
     }
+
+    footer{
+        display: flex;
+        align-items: center ;
+        justify-content: space-around;
+        margin-top: 90px;
+        height: 250px;
+        background-color: var(--light-pink);
+    }
+
+    footer img{
+        height: 132px;
+        width: 300px;
+    }
+
+    #footer-options{
+        
+        font-size: 20px;
+        list-style: none;
+    }
+  #footer-options li a{
+    color: white;
+        text-decoration: none;
+    }
+    #social-media{
+        list-style: none;
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+  
+    #social-media li img{
+        
+        height: 30px;
+        width: 30px;
+
+    }
+
