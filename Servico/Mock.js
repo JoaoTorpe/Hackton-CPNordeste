@@ -13,7 +13,7 @@ data ={
         "link": "https://www.sds.pe.gov.br/seguranca-publica/delegacia-da-mulher"
     },
     {
-        "nome": "Centro de ReferÃªncia de Atendimento Ã  Mulher em SituaÃ§Ã£o de ViolÃªncia (CRAM)",
+        "nome": "Centro de Referencia de Atendimento à Mulher em Situação de Violencia (CRAM)",
         "link": "https://www.sds.pe.gov.br/seguranca-publica/centro-de-referencia"
     },
     {
@@ -107,7 +107,7 @@ data ={
 ],
 "violencia_vulnerabilidade": [
     {
-        "nome": "Centro de Atendimento Ã  Mulher em SituaÃ§Ã£o de ViolÃªncia DomÃ©stica",
+        "nome": "Centro de Atendimento a Mulher em SituaÃ§Ã£o de Violecia Domestica",
         "link": "https://www.sds.pe.gov.br/seguranca-publica/centro-atendimento"
     },
     {
