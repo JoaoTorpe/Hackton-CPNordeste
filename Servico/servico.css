@@ -1,0 +1,33 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+  
+
+}
+
+#servico-logo{
+width: 150px;
+margin-top: 20px;
+margin-left: 20px ;
+
+}
+
+main{
+    margin-top: 50px;
+    border: solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#cards-container{
+
+border: solid blue;
+width: 100%;
+
+}
