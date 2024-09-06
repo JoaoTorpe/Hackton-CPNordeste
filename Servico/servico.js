@@ -1,14 +1,17 @@
 import data  from "./Mock.js"
 
+const logo = document.querySelector("#logo")
 
-let example = 'saude'
+logo.addEventListener('click',moveToIndex)
+
+let item = localStorage.getItem("servico-key")
 
 const cardsContainer = document.querySelector("#cards-container")
 const title = document.querySelector("#service-title")
 
 
-let servicos  = data[example]
-title.innerText = example
+let servicos  = data[item]
+title.innerText = localStorage.getItem("service-name")
 
 servicos.forEach(e => {
    
@@ -31,3 +34,8 @@ cardsContainer.appendChild(tempDiv.childNodes[1])
     
 });
 
+
+function moveToIndex(){
+  console.log("rodou")
+  window.location.href = '../Principal/index.html';
+}
