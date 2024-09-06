@@ -1,4 +1,4 @@
-{
+let data = {
     "seguranca": [
       {
         "nome": "Delegacia da Mulher",
@@ -30,7 +30,7 @@
     "saude": [
       {
         "nome": "Hospital da Mulher do Recife",
-        "link": "https://www.hospitaldamulher.pe.gov.br/"
+        "link": "https://www2.recife.pe.gov.br/pagina/hospital-da-mulher-do-recife-dra-merces-pontes-cunha"
       },
       {
         "nome": "Programa de Saúde da Mulher",
@@ -143,3 +143,5 @@
     ]
   }
   
+
+  export default data
