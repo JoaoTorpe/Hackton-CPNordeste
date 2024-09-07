@@ -22,4 +22,5 @@ cards.forEach(e =>{
 
     })
 
-} )
+} )//iniciando o AOS efeitos
+AOS.init();

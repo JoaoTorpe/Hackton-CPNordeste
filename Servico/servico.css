@@ -96,6 +96,14 @@ main {
     background-color: var(--dark-blue);
 }
 
+header{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    
+}
 /* Responsividade */
 @media (max-width: 992px) {
     .card {
