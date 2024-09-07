@@ -16,6 +16,7 @@
 
 #logo {
     max-width: 200px;
+    margin-left: 3%;
 }
 
 header {
@@ -63,14 +64,15 @@ header ul li a {
     cursor: pointer;
     color: #fff;
     background-color: var(--purple);
-    font-weight: 700;
-    padding: 10px 20px;
-    border-radius: 5px;
+    font-weight:500;
+    padding: 10px 35px;
+    border-radius: 200px;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
     gap: 10px;
     transition: 0.5s ease-in-out;
+    margin-top:5% ;
 }
 
 #hero-content a:hover {
@@ -104,7 +106,7 @@ header ul li a {
     font-size: 16px;
     height: 180px;
     width: 180px;
-    border-radius: 10px;
+    border-radius: 30px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -151,3 +153,13 @@ footer img {
     display: flex;
     gap: 10px;
 }
+
+.nav-link {
+    color: var(--dark-blue) !important;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    color:var(--light-pink) !important;
+}
+
